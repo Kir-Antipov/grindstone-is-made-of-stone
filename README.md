@@ -20,7 +20,7 @@ This little mod corrects this misconception.
 ## Installation
 
 Requirements:
-- Minecraft `1.15.x`
+- Minecraft `1.16.x`
 - Fabric Loader `>=0.7.0`
 
 You can download the mod from:
