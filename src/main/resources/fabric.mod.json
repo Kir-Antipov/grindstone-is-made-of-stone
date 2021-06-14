@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "grindstoneismadeofstone",
+  "version": "${version}",
+  "name": "Grindstone Is Made Of Stone",
+  "description": "Doesn't that make sense?",
+  "authors": [
+    "Kir_Antipov"
+  ],
+  "contact": {
+    "website": "https://github.com/Kir-Antipov/grindstone-is-made-of-stone",
+    "repo": "https://github.com/Kir-Antipov/grindstone-is-made-of-stone",
+    "issues": "https://github.com/Kir-Antipov/grindstone-is-made-of-stone/issues/new/choose"
+  },
+  "license": "MIT",
+  "icon": "assets/grindstoneismadeofstone/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "grindstoneismadeofstone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "${fabric}",
+    "minecraft": "${minecraft}"
+  }
+}
