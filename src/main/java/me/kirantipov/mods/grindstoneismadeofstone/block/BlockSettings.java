@@ -1,8 +1,8 @@
 package me.kirantipov.mods.grindstoneismadeofstone.block;
 
 import net.minecraft.block.BlockState;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
-import net.minecraft.block.MaterialColor;
 
 import java.util.function.Function;
 
@@ -20,7 +20,7 @@ public interface BlockSettings {
     /**
      * {@link #material(Material, Function)} )}
      */
-    default BlockSettings material(Material material, MaterialColor materialColor) {
+    default BlockSettings material(Material material, MapColor materialColor) {
         return this.material(material, state -> materialColor);
     }
 
@@ -32,5 +32,5 @@ public interface BlockSettings {
      *
      * @return `this` instance for further chaining.
      */
-    BlockSettings material(Material material, Function<BlockState, MaterialColor> materialColor);
+    BlockSettings material(Material material, Function<BlockState, MapColor> materialColor);
 }

@@ -3,8 +3,8 @@ package me.kirantipov.mods.grindstoneismadeofstone.mixin;
 import me.kirantipov.mods.grindstoneismadeofstone.block.BlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
-import net.minecraft.block.MaterialColor;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
@@ -20,17 +20,17 @@ import java.util.function.Function;
 @Mixin(AbstractBlock.Settings.class)
 public class MixinAbstractBlockSettings implements BlockSettings {
     @Shadow
-    private Material material;
+    Material material;
 
     @Shadow
-    private Function<BlockState, MaterialColor> materialColorFactory;
+    Function<BlockState, MapColor> mapColorProvider;
 
     /**
      * {@inheritDoc}
      */
-    public BlockSettings material(Material material, Function<BlockState, MaterialColor> materialColorFactory) {
+    public BlockSettings material(Material material, Function<BlockState, MapColor> materialColorFactory) {
         this.material = material;
-        this.materialColorFactory = materialColorFactory;
+        this.mapColorProvider = materialColorFactory;
         return this;
     }
 }
