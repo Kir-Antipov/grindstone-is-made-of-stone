@@ -1,6 +1,6 @@
-package me.kirantipov.mods.grindstoneismadeofstone.mixin;
+package dev.kir.grindstoneismadeofstone.mixin;
 
-import me.kirantipov.mods.grindstoneismadeofstone.block.BlockSettings;
+import dev.kir.grindstoneismadeofstone.block.BlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.MapColor;

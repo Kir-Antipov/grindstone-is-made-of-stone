@@ -1,4 +1,4 @@
-package me.kirantipov.mods.grindstoneismadeofstone.block;
+package dev.kir.grindstoneismadeofstone.block;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.MapColor;

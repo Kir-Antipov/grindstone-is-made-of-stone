@@ -1,13 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.kirantipov.mods.grindstoneismadeofstone.mixin",
+  "package": "dev.kir.grindstoneismadeofstone.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "MixinAbstractBlockSettings",
     "MixinGrindstoneBlock"
-  ],
-  "client": [
   ],
   "injectors": {
     "defaultRequire": 1
