@@ -19,6 +19,12 @@
   "mixins": [
     "grindstone-is-made-of-stone.mixins.json"
   ],
+  "custom": {
+    "modmanager": {
+      "modrinth": "UkKCoM9E",
+      "curseforge": 494179
+    }
+  },
   "depends": {
     "fabricloader": "${fabric}",
     "minecraft": "${minecraft}",
