@@ -19,6 +19,7 @@
   "mixins": [
     "grindstone-is-made-of-stone.mixins.json"
   ],
+  "accessWidener": "grindstone-is-made-of-stone.accesswidener",
   "custom": {
     "modmanager": {
       "modrinth": "UkKCoM9E",

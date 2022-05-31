@@ -1,0 +1,4 @@
+accessWidener v1 named
+
+accessible field net/minecraft/block/AbstractBlock$Settings material Lnet/minecraft/block/Material;
+accessible field net/minecraft/block/AbstractBlock$Settings mapColorProvider Ljava/util/function/Function;

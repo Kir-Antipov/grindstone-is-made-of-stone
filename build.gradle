@@ -12,6 +12,10 @@ group = project.maven_group
 version = "${project.mod_version}${getVersionMetadata()}"
 archivesBaseName = "${project.archives_base_name}-mc${minecraftDependencyVersion}"
 
+loom {
+    accessWidenerPath = file("src/main/resources/grindstone-is-made-of-stone.accesswidener")
+}
+
 dependencies {
     //to change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
