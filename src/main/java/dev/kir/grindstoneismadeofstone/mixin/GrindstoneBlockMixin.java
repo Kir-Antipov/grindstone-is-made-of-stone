@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.ModifyArg;
  * </ul>
  */
 @Mixin(GrindstoneBlock.class)
-public class MixinGrindstoneBlock {
+public class GrindstoneBlockMixin {
     @ModifyArg(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/block/WallMountedBlock;<init>(Lnet/minecraft/block/AbstractBlock$Settings;)V"))
     private static AbstractBlock.Settings changeSettingsMaterialToStone(AbstractBlock.Settings settings) {
         Material material = Material.STONE;
