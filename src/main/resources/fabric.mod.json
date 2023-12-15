@@ -20,7 +20,7 @@
     "grindstone-is-made-of-stone.mixins.json"
   ],
   "custom": {
-    "modmanager": {
+    "mc-publish": {
       "modrinth": "UkKCoM9E",
       "curseforge": 494179
     }
