@@ -8,13 +8,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 
-/**
- * This mixin:
- *
- * <ul>
- *     <li>Changes grindstone's material to `Material.STONE`.</li>
- * </ul>
- */
 @Mixin(GrindstoneBlock.class)
 public class GrindstoneBlockMixin {
     @ModifyArg(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/block/WallMountedBlock;<init>(Lnet/minecraft/block/AbstractBlock$Settings;)V"))
