@@ -1,19 +1,20 @@
 ![Logo](media/logo.png)
 
-# Grindstone Is Made Of Stone (Fabric)
-[![GitHub tag](https://img.shields.io/github/v/tag/Kir-Antipov/grindstone-is-made-of-stone.svg?cacheSeconds=3600&sort=date)](https://github.com/Kir-Antipov/grindstone-is-made-of-stone/releases/latest)
-[![GitHub build status](https://img.shields.io/github/workflow/status/Kir-Antipov/grindstone-is-made-of-stone/build-artifacts/1.19.x/dev?cacheSeconds=3600)](https://github.com/Kir-Antipov/grindstone-is-made-of-stone/actions/workflows/build-artifacts.yml)
-[![Modrinth](https://img.shields.io/badge/dynamic/json?color=5da545&label=Modrinth&query=title&url=https://api.modrinth.com/api/v1/mod/grindstone-is-made-of-stone&style=flat&cacheSeconds=3600&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMSAxMSIgd2lkdGg9IjE0LjY2NyIgaGVpZ2h0PSIxNC42NjciICB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxkZWZzPjxjbGlwUGF0aCBpZD0iQSI+PHBhdGggZD0iTTAgMGgxMXYxMUgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNBKSI+PHBhdGggZD0iTTEuMzA5IDcuODU3YTQuNjQgNC42NCAwIDAgMS0uNDYxLTEuMDYzSDBDLjU5MSA5LjIwNiAyLjc5NiAxMSA1LjQyMiAxMWMxLjk4MSAwIDMuNzIyLTEuMDIgNC43MTEtMi41NTZoMGwtLjc1LS4zNDVjLS44NTQgMS4yNjEtMi4zMSAyLjA5Mi0zLjk2MSAyLjA5MmE0Ljc4IDQuNzggMCAwIDEtMy4wMDUtMS4wNTVsMS44MDktMS40NzQuOTg0Ljg0NyAxLjkwNS0xLjAwM0w4LjE3NCA1LjgybC0uMzg0LS43ODYtMS4xMTYuNjM1LS41MTYuNjk0LS42MjYuMjM2LS44NzMtLjM4N2gwbC0uMjEzLS45MS4zNTUtLjU2Ljc4Ny0uMzcuODQ1LS45NTktLjcwMi0uNTEtMS44NzQuNzEzLTEuMzYyIDEuNjUxLjY0NSAxLjA5OC0xLjgzMSAxLjQ5MnptOS42MTQtMS40NEE1LjQ0IDUuNDQgMCAwIDAgMTEgNS41QzExIDIuNDY0IDguNTAxIDAgNS40MjIgMCAyLjc5NiAwIC41OTEgMS43OTQgMCA0LjIwNmguODQ4QzEuNDE5IDIuMjQ1IDMuMjUyLjgwOSA1LjQyMi44MDljMi42MjYgMCA0Ljc1OCAyLjEwMiA0Ljc1OCA0LjY5MSAwIC4xOS0uMDEyLjM3Ni0uMDM0LjU2bC43NzcuMzU3aDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiM1ZGE0MjYiLz48L2c+PC9zdmc+)](https://modrinth.com/mod/grindstone-is-made-of-stone)
-[![CurseForge](https://img.shields.io/badge/dynamic/json?color=%23f16436&label=CurseForge&query=title&url=https%3A%2F%2Fapi.cfwidget.com%2F494179)](https://www.curseforge.com/minecraft/mc-mods/grindstone-is-made-of-stone)
-[![GitHub license](https://img.shields.io/github/license/Kir-Antipov/grindstone-is-made-of-stone.svg?cacheSeconds=36000)](https://github.com/Kir-Antipov/grindstone-is-made-of-stone#readme)
+# Grindstone Is Made Of Stone
 
-Well, grindstone looks like stone, sounds like stone and literally has `stone` in its name; so I think it should be made of stone.
+[![GitHub Build Status](https://img.shields.io/github/actions/workflow/status/Kir-Antipov/grindstone-is-made-of-stone/build-artifacts.yml?style=flat&logo=github&cacheSeconds=3600)](https://github.com/Kir-Antipov/grindstone-is-made-of-stone/actions/workflows/build-artifacts.yml)
+[![Version](https://img.shields.io/github/v/release/Kir-Antipov/grindstone-is-made-of-stone?sort=date&style=flat&label=version&cacheSeconds=3600)](https://github.com/Kir-Antipov/grindstone-is-made-of-stone/releases/latest)
+[![Modrinth](https://img.shields.io/badge/dynamic/json?color=00AF5C&label=Modrinth&query=title&url=https://api.modrinth.com/v2/project/grindstone-is-made-of-stone&style=flat&cacheSeconds=3600&logo=modrinth)](https://modrinth.com/mod/sync-fabric)
+[![CurseForge](https://img.shields.io/badge/dynamic/json?color=%23f16436&label=CurseForge&query=title&url=https%3A%2F%2Fapi.cfwidget.com%2F494179&cacheSeconds=3600&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/sync-fabric)
+[![License](https://img.shields.io/github/license/Kir-Antipov/grindstone-is-made-of-stone?style=flat&cacheSeconds=36000)](https://github.com/Kir-Antipov/grindstone-is-made-of-stone/blob/HEAD/LICENSE.md)
+
+If you ask anybody what a grindstone is, they will usually tell you that it's a sharpening **stone** used for grinding tools. A more meticulous person might even add that they are usually made of sandstone[¹](https://en.wikipedia.org/wiki/Grindstone#History_and_description), not just any stone.
+
+However, Mojang, also known as The Biggest Consistency™ Fan out there, decided to set the grindstone's material to the same one they use for the anvil. While this might not seem like a big deal at first glance, it actually is when you remember that anvils cannot be pushed by pistons. Thus, [it's impossible to move a grindstone via a piston](https://bugs.mojang.com/browse/MC-140498) too, unlike any other workstation. Yet another win for consistency! Hip hip hooray!
+
+This small mod fixes this inconsistency by changing the grindstone's material to `stone`.
 
 ![Hmm, yes, the floor here is made out of floor](media/floor.png)
-
-For some reason, Mojang [felt it differently](https://bugs.mojang.com/browse/MC-140498) and set grindstone's material to heavy metal; so it can't be moved by a piston (unlike other workstations).
-
-This little mod corrects this misconception.
 
 ----
 
